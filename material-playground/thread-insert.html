@@ -33,12 +33,13 @@
 <div class="container-fluid content">
 	<section class="col-md-8 main">
 		<section class="category"><h3 class="hidden">Category</h3>
+			<header class="row">
+				<div class="col-md-12">
+					<a href="#" class="title">Insert new thread</a>
+				</div>
+			</header>
 			<section class="row forum">
 				<div class="col-md-12">
-					<div class="root">
-						<h3>Insert new thread</h3>
-					</div>
-					<!-- Start looping here -->
 					<div class="root">
 						<section class="edit-form" style="display: block;"><h2 class="hidden">Forum Edit Form</h2>
 							<section><h3 class="hidden">Form Inputs</h3>
@@ -64,14 +65,16 @@
 								<!-- Save Button -->
 								<section class="row save"><h3 class="hidden">Save</h3>
 									<div class="col-md-12">
-										<input type="submit" class="btn btn-primary pull-right" value="Submit"></button>
+										<div class="pull-right">
+											<a href="javascript:history.back()" class="btn btn-primary">Back</a>
+											<input type="submit" class="btn btn-success" value="Submit"></button>
+										</div>
 										<div class="clearfix"></div>
 									</div>
 								</section>
 							</form>
 						</section>
 					</div>
-					<!-- End looping here -->
 				</div>
 				<paper-shadow z="1"></paper-shadow>
 			</section>
