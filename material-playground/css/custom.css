@@ -40,7 +40,7 @@ div.root { border-bottom: 1px solid #FAFAFA; margin-bottom: 20px; padding-bottom
 .main .category a.title { color: #333; font-size: 34px; }
 .main .category a.title:hover,
 .main .category a.title:focus { color: #df4c47;  }
-.main .category .forum { background-color: #d6e7f6; margin: 30px 0; padding: 20px 15px 0; }
+.main .category .forum { background-color: #d6e7f6; margin: 10px 0; padding: 20px 15px 0; }
 .main .category .sub-forum-header{ background-color: #E0E0E0; }
 .main .category .forum a.title { color: #343446; font-size: 32px; }
 .main .category .forum a.title:hover,
