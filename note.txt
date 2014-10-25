@@ -1,0 +1,30 @@
+untuk yuri <3 wkwk
+tolong bikinin yg sub-forum.html ya yur
+
+folder structure(application)
+views
+---forum
+------sub-forum
+
+maen nya di view/forum/sub-forum/frontpage.php aja buat main_view nya.
+
+nah controller pake yg Category.php aja
+
+kan ada $param tuh yak, lu pasangin ini
+
+if(empty($param))
+{
+	redirect(base_url());
+}else{
+	$param = strtolower($param);
+	$param = str_replace("%20", " ", $param);
+	
+	$data = $this->model->getData($param);
+	$this->data['data'] = $data;
+
+	<!-- do your magic code here yuri wk -->
+}
+
+nah tinggal looping di views/forum/sub-forum/frontpage.php nya aja.
+
+kalo bisa malem ini yak, biar besok abis cfd an bisa gua lanjutin.
