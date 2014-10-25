@@ -31,6 +31,7 @@ paper-button[raised].colored {
 	background: #4285f4;
 	color: #fff;
 }
+.border{border-color: #357ebd;}
 td, th{ text-align: left; }
 div.root { border-bottom: 1px solid #FAFAFA; margin-bottom: 20px; padding-bottom: 20px; }
 .brand{padding-left: 25px; text-decoration: none; color: #FFF;}
@@ -38,6 +39,7 @@ div.root { border-bottom: 1px solid #FAFAFA; margin-bottom: 20px; padding-bottom
 .main p.root { border-bottom: 1px solid #e1e1e1; margin-bottom: 50px; padding-bottom: 20px; }
 .main .category { margin-bottom: 60px; }
 .main .category a.title { color: #333; font-size: 34px; }
+p.title { color: #333; font-size: 34px; height:34px;}
 .main .category a.title:hover,
 .main .category a.title:focus { color: #df4c47;  }
 .main .category .forum { background-color: #d6e7f6; margin: 10px 0; padding: 20px 15px 0; }

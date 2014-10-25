@@ -18,17 +18,20 @@
 	<link rel="stylesheet" href="./css/forum.css">
 	<link rel="stylesheet" href="./css/custom.css">
 	
-	<!-- Polymer Components -->
-	<link rel="import" href="./components/core-header-panel/core-header-panel.html">
-	<link rel="import" href="./components/core-toolbar/core-toolbar.html">
-	<link rel="import" href="./components/paper-shadow/paper-shadow.html">
-	<link rel="import" href="./components/core-sidebar-tabs/core-sidebar-tabs.html">
+	<!-- Imports -->
+	<link rel="import" href="./components/core-imports/core-imports.html">
 
 </head>
 <body unresolved>
 	<core-header-panel mode="waterfall-tall" tallClass="medium-tall" navigation flex>
 	<core-toolbar class="core-header">
 	<a href="./index.html" class="bottom brand"><h2>Project-Forum</h2></a>
+	<div style="position: absolute; right: 0px; top: -1px">
+		<div class="btn-group">
+			<a href="./register.html" class="btn btn-primary border">Register <paper-ripple fit></paper-ripple></a>
+			<a href="./login.html" class="btn btn-primary border">Login <paper-ripple fit></paper-ripple></a>
+		</div>
+	</div>
 </core-toolbar>
 <div class="container-fluid content">
 	<section class="col-md-8 main">
@@ -129,5 +132,10 @@
 	</aside>
 </div>
 </core-header-panel>
+<!-- jQuery -->
+<script src="./js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core -->
+<script src="./js/bootstrap.js"></script>
 </body>
 </html>
