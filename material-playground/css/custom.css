@@ -98,7 +98,7 @@ div.root { border-bottom: 1px solid #FAFAFA; margin-bottom: 20px; padding-bottom
 .main .reply p img { margin-right: 7px; margin-top: -3px; }
 .main .reply i { color: #34c78a; cursor: pointer; font-size: 22px; }
 .main .reply a.checkbox-label { text-decoration: none; }
-.main .underline { border-bottom: 1px solid #e1e1e1; margin-bottom: 20px; margin-top: 40px; }
+.main .underline { border-bottom: 1px solid #e1e1e1; margin-bottom: 20px; margin-top: 10px; }
 .main .submit .btn-primary { padding: 15px 40px; }
 .sidebar UL{list-style-type: none; clear: right; margin: 0; padding: 0;}
 .sidebar UL LI{padding: 10px 5px; text-align: right;}
